@@ -698,9 +698,9 @@ function setScene(){
   container.appendChild(renderer.domElement);
 
   controls=new THREE.TrackballControls(camera,renderer.domElement);
-  controls.noRotate=true;
-  controls.noPan=true;
-  controls.noZoom=true;
+  controls.noRotate=false;
+  controls.noPan=false;
+  controls.noZoom=false;
   controls.rotateSpeed=1.0;
 	controls.dynamicDampingFactor=.5;
 	
